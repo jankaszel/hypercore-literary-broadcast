@@ -7,7 +7,7 @@ function main () {
   const key = process.argv.length > 2 && Buffer.from(process.argv[2], 'hex')
   const feed = key ? hypercore(ram, key) : hypercore(ram)
 
-  const ext = feed.registerExtension('foo', {
+  const ext = feed.registerExtension('faust', {
     encoding: 'utf-8',
     onmessage (message) {
       console.log(`message received: ${message}`)
