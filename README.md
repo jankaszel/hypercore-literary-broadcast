@@ -14,7 +14,7 @@ This instance will output its discovery key. Copy it and create a second instanc
 node . <key>
 ```
 
-Upon feed initialization and discovery---both peers will join the same swarm based on the feed's key---they will start sending random lines from the first chapter of Faust to each other. That's it!
+Upon feed initialization and discovery—both peers will join the same swarm based on the feed's key—they will start sending random lines from the first chapter of Faust to each other. That's it!
 
 <sup>†</sup> I might be wrong on that feeds itself—that is, their persistence on memory or disk—are actually encrypted, and encryption could rather be limited to network communication via the [Noise protocol](https://noiseprotocol.org/).
 
