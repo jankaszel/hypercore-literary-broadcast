@@ -1,4 +1,4 @@
-# Hypercore Extension Test
+# Hypercore Extension Broadcast Test
 
 This small application is a test on using [hypercore feed extensions](https://github.com/mafintosh/hypercore#ext--feedregisterextensionname-handlers) in order to broadcast ephemeral messages to peers. For that purpose, it sends single verses from Goethe's Faust (obtained from [Projekt Gutenberg](https://www.projekt-gutenberg.org/goethe/faust1/faust1.html)) to each peer that is accessing the same hypercore feed. To run this test, you'll need to have installed [Node.js](https://nodejs.org/en/) and to obtain the module's dependencies (`npm install`).
 
