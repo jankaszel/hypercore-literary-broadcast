@@ -1,0 +1,17 @@
+{
+  "name": "hypercore-literary-broadcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Kaßel <jan@kassel.works>",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperswarm/replicator": "^1.7.1",
+    "hypercore": "^8.13.2",
+    "hyperswarm": "^2.13.0",
+    "random-access-memory": "^3.1.1"
+  }
+}
